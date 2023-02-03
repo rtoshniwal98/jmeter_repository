@@ -1,0 +1,38 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1675407992390,924,TC02_JPStore_ClickOn_SignIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 2 2-1,,true,,4406,769,1,2,null,0,75,760
+1675407992456,924,TC02_JPStore_ClickOn_SignIn/actions/Account.action-79,200,,Script 2 2-1,text,true,,4406,769,1,2,https://petstore.octoperf.com/actions/Account.action?signonForm=,923,0,760
+1675407992390,1085,TC00_JPStore_ClickOn_HomePage,200,"Number of samples in transaction : 3, number of failing samples : 0",Script 1 1-1,,true,,6988,1736,1,2,null,0,83,733
+1675407992456,87,TC01_JPStore_ClickOn_HomePage/generate_204-47,204,No Content,Script 1 1-1,,true,,127,310,1,2,http://www.gstatic.com/generate_204,0,0,62
+1675407992545,834,TC01_JPStore_ClickOn_HomePage/-48,200,,Script 1 1-1,text,true,,1442,691,1,2,https://petstore.octoperf.com/,834,0,671
+1675407993393,164,TC01_JPStore_ClickOn_HomePage/actions/Catalog.action-50,200,,Script 1 1-1,text,true,,5419,735,1,2,https://petstore.octoperf.com/actions/Catalog.action,164,0,0
+1675407993390,328,TC03_JPStore_ClickOn_Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Script 2 2-1,,true,,8657,2049,1,2,null,0,2,0
+1675407993392,172,TC02_JPStore_ClickOn_Login/actions/Account.action-80,200,,Script 2 2-1,text,true,,3929,1201,1,2,https://petstore.octoperf.com/actions/Account.action,171,0,0
+1675407993564,156,TC02_JPStore_ClickOn_Login/actions/Catalog.action-81,200,,Script 2 2-1,text,true,,4728,848,1,2,https://petstore.octoperf.com/actions/Catalog.action,155,0,0
+1675407993558,160,TC01_JPStore_ClickOn_SignIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,3849,900,1,2,null,0,3,0
+1675407993559,160,TC02_JPStore_ClickOn_SignIn/actions/Account.action;jsessionid=726FCBB5A19F2F1BAD67CB4AD3164CA0?viewCategory=&amp;categoryId=FISH,200,,Script 1 1-1,text,true,,3849,900,1,2,https://petstore.octoperf.com/actions/Account.action;jsessionid=726FCBB5A19F2F1BAD67CB4AD3164CA0?viewCategory=&amp;categoryId=FISH&signonForm=,160,0,0
+1675407993721,314,TC03_JPStore_ClickOn_Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Script 1 1-1,,true,,8659,2137,1,1,null,0,1,0
+1675407993722,154,TC03_JPStore_ClickOn_Login/actions/Account.action-66,200,,Script 1 1-1,text,true,,3931,1245,1,1,https://petstore.octoperf.com/actions/Account.action,153,0,0
+1675407993876,160,TC03_JPStore_ClickOn_Login/actions/Catalog.action-67,200,,Script 1 1-1,text,true,,4728,892,1,1,https://petstore.octoperf.com/actions/Catalog.action,160,0,0
+1675407994036,157,TC04_JPStore_ClickOn_Animals,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,3966,840,1,1,null,0,2,0
+1675407994037,157,TC04_JPStore_ClickOn_Dogs/actions/Catalog.action-68,200,,Script 1 1-1,text,true,,3966,840,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS,157,0,0
+1675407994195,154,TC05_JPStore_ClickOn_ProductId,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,3892,872,1,1,null,0,0,0
+1675407994195,154,TC05_JPStore_ClickOn_ProductId/actions/Catalog.action-69,200,,Script 1 1-1,text,true,,3892,872,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-DL-01,154,0,0
+1675407994350,172,TC06_JPStore_ClickOn_AddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,4435,875,1,1,null,0,0,0
+1675407994350,172,TC06_JPStore_ClickOn_AddToCart/actions/Cart.action-70,200,,Script 1 1-1,text,true,,4435,875,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-10,172,0,0
+1675407994523,155,TC07_JPStore_ClickOn_UpdateCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,4435,1194,1,1,null,0,0,0
+1675407994523,155,TC06_JPStore_ClickOn_UpdateCart/actions/Cart.action-71,200,,Script 1 1-1,text,true,,4435,1194,1,1,https://petstore.octoperf.com/actions/Cart.action,155,0,0
+1675407994678,154,TC07_JPStore_ClickOn_ProceedToCheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,3974,819,1,1,null,0,0,0
+1675407994678,154,TC07_JPStore_ClickOn_ProceedToCheckout/actions/Order.action-72,200,,Script 1 1-1,text,true,,3974,819,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,154,0,0
+1675407994832,158,TC08_JPStore_ClickOn_Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,4239,1444,1,1,null,0,1,0
+1675407994833,158,TC07_JPStore_ClickOn_Continue/actions/Order.action-73,200,,Script 1 1-1,text,true,,4239,1444,1,1,https://petstore.octoperf.com/actions/Order.action,158,0,0
+1675407994991,307,TC09_JPStore_ClickOn_Confirm,500,"Number of samples in transaction : 1, number of failing samples : 1",Script 1 1-1,,false,,15705,831,1,1,null,0,6,0
+1675407994992,307,TC07_JPStore_ClickOn_Confirm/actions/Order.action-74,500,,Script 1 1-1,text,false,"Test failed: text expected to contain /Thank you, your order has been submitted./",15705,831,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,157,0,0
+1675407995304,161,TC10_JPStore_ClickOn_MyAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,5859,850,1,1,null,0,0,0
+1675407995304,161,TC07_JPStore_ClickOn_MyAccount/actions/Account.action-75,200,,Script 1 1-1,text,true,,5859,850,1,1,https://petstore.octoperf.com/actions/Account.action?editAccountForm=,160,0,0
+1675407995465,192,TC11_JPStore_ClickOn_MyOrders,200,"Number of samples in transaction : 1, number of failing samples : 0",Script 1 1-1,,true,,3066,837,1,1,null,0,1,0
+1675407995465,192,TC07_JPStore_ClickOn_MyOrders/actions/Order.action-76,200,,Script 1 1-1,text,true,,3066,837,1,1,https://petstore.octoperf.com/actions/Order.action?listOrders=,192,0,0
+1675407995658,468,TC12_JPStore_ClickOn_SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",Script 1 1-1,,true,,9749,2469,1,1,null,0,3,0
+1675407995659,315,TC07_JPStore_ClickOn_SignOut/actions/Account.action-77,200,,Script 1 1-1,text,true,,5021,1649,1,1,https://petstore.octoperf.com/actions/Catalog.action,157,0,0
+1675407995659,157,TC07_JPStore_ClickOn_SignOut/actions/Account.action-77-0,302,,Script 1 1-1,,true,,218,829,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,157,0,0
+1675407995818,156,TC07_JPStore_ClickOn_SignOut/actions/Account.action-77-1,200,,Script 1 1-1,text,true,,4803,820,1,1,https://petstore.octoperf.com/actions/Catalog.action,156,0,0
+1675407995976,153,TC07_JPStore_ClickOn_SignOut/actions/Catalog.action-78,200,,Script 1 1-1,text,true,,4728,820,1,1,https://petstore.octoperf.com/actions/Catalog.action,153,0,0
